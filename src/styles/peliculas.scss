@@ -1,0 +1,44 @@
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 3rem;
+    margin-left: 2.5%;
+    margin-top:2%;
+
+  
+}
+
+
+a { text-decoration: none; 
+    color: #FFF;} 
+
+.titles-estrenos{
+    color: #FFF;
+    padding-top: 2%;
+    margin-left: 2%;
+
+}
+
+.pop-img{
+    border-radius: 10%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+}
+
+.pop-fav{
+    position: absolute;
+    margin-left: 12.2%;
+    margin-top: 0.15%;
+   /*  margin-right: 10%; */
+}
+
+.pop-title{
+    color:#FFF;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 14%;
+    padding-top: 1%;
+}
+

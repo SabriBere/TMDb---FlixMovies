@@ -1,0 +1,55 @@
+//Mismo estilo para el login del user y el registro
+body{
+    background-image: url(../assets/footer-bg.jpg);
+    background-size: cover;
+
+}
+
+
+.form{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    border-radius: 0.31em;
+}
+
+.input{
+    border-radius: 0%;
+}
+
+.btn-form{
+    width: 100%;
+        color: #fff;
+        cursor: pointer;
+        transition: .3s ease all;
+        background-color: #E50914;
+        border-color: none;
+        margin-top: 2%;
+        border-radius: 0.31em;
+
+}
+
+.btn-register{
+        background: rgba(0,0,0, 0.5);
+        color: #fff;
+        border-color: rgba(0,0,0, 0.5);
+        cursor: pointer;
+        transition: .3s ease all;
+        background: rgba(73, 70, 70, 0.3);
+        border-radius: 0.31em;
+       
+       
+}
+
+.title-register-login{
+    color: #E50914;
+    font-weight: bold;
+}
+
+.mensaje{
+    color:#E50914;
+    font-weight: bold;
+}
+.reCaptcha{
+    margin-top: 2%;
+}
