@@ -9,7 +9,7 @@ import Peliculas from './components/Peliculas'
 import Series from './components/Series'
 import SearchUsers from './components/SearchUsers'
 import Content from './components/Content'
-/* import SingleMovie from './components/SingleMovie' */
+import SingleMovie from './components/SingleMovie' 
 import { AuthContextProvider } from './Hooks/AuthContext'
 import { Routes, Route } from 'react-router-dom'
 
@@ -31,7 +31,7 @@ const App = () => {
                     {/* Para mostrar peliculas de forma individual */}
                     {/* <Route path='/movies/:select' element={<SingleMovie />} /> */}
                     <Route path='/series' element={<Series />} />
-                    <Route path='search/users' element={< SearchUsers/>} />
+                    <Route path='search/users' element={< SearchUsers />} />
                 </Routes>
             </AuthContextProvider>
         </div>
