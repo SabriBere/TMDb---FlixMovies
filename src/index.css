@@ -1,7 +1,9 @@
- :root {
+
+:root {
 	--rojo: #E50914;
 	--fondo: #141414;
-} 
+}
+
 
 * {
 	margin: 0;
@@ -14,9 +16,14 @@
 
 body {
 	background: var(--fondo);
-	background-image: url(./assets/NET-ZERO-SPACE-INITIATIVE-1.png);
+	background-image: url(./assets/footer-bg.jpg);
+	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 }
+
+
+
+
 
 /* .contenedor {
 	width: 90%;

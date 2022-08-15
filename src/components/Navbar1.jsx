@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/navbar copy.scss'
 
 
@@ -8,9 +9,25 @@ const Navbar1 = () => {
 
 
     return (
-        <>
-           <p className='text-light'>Hola soy la Navbar</p> 
-        </>
+        <nav>
+            <ul>
+                <li>
+                    <Link to={'/'}>Home</Link>
+                </li>
+                <li>
+                    <Link to={'/movies'}>Peliculas</Link>
+                </li>
+                <li>
+                    <Link to={'/series'}>Series</Link>
+                </li>
+                <li>
+                    <Link to={'/login'}>Ingresar</Link>
+                </li>
+                <li>
+                    <Link to={'/register'}>Registrarse</Link>
+                </li>
+            </ul>
+        </nav>
     )
 }
 
