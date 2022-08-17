@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css";
-import Navbar from './components/Navbar1'
+import Navbar from './components/Navbar'
 import NewUser from './commons/NewUser';
 import LogUser from './commons/LogUser';
 import Header from './components/Header';
